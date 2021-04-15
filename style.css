@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Orelega One', cursive;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 35px;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 20px;
+    color: #EA1E59;
+    font-size: 20px;
+    margin-left: 200px;
+    width: 100%;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+
+
+/* header */
+
+.nav h1 {
+    color: #fff;
+    margin-right: 160px;
+    font-size: 30px;
+}
+
+.color-highlight {
+    color: #EA1E59;
+}
+
+.responsive {
+    width: 80px;
+    height: 50px;
+    margin-right: 20px;
+    background: black;
+}
+
+.nav a {
+    color: #fff;
+    justify-content: end;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.navbar {
+    padding: 30px;
+    background: black;
+}
+
+.nav-item:hover a {
+    border-bottom: 0.5px solid #EA1E59;
+}
+
+
+/* showcase area */
+
+.showcase {
+    margin-top: 10px;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/bg-bird.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.showcase-area {
+    position: relative;
+}
+
+.showcase-area h2 {
+    font-weight: 600;
+    font-size: 100px;
+    color: #fff;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    left: 500px;
+}
+
+
+/* slider */
+
+.slider {
+    margin-top: 120px;
+}
+
+.slider-area {
+    margin-top: 50px;
+}
+
+.d-block {
+    height: 430px;
+}
+
+.slider p {
+    color: black;
+}
+
+
+/* products */
+
+.products {
+    margin-top: 100px;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+.sm-height {
+    height: 300px;
+}
+
+
+/* developer */
+
+.developer {
+    margin-top: 100px;
+    height: 500px;
+    border: 1px solid #EA1E59;
+}
+
+.normal-height {
+    height: 320px;
+    width: 80%;
+}
+
+.bio {
+    width: 100%;
+    margin-top: 10px;
+    color: #777;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+
+/* footer */
+
+.footer {
+    margin-top: 100px;
+    height: 650px;
+    background: rgb(6, 32, 53);
+}
+
+.footer h3 {
+    color: #fff;
+    padding-top: 30px;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
+}
+
+.mb-3 {
+    margin-top: 50px;
+}
+
+.footer-p {
+    text-align: center;
+    margin-top: 80px;
+    color: #fff;
+}
+
+
+/* media query */
+
+@media(max-width: 700px) {
+    .navbar {
+        padding: 50px;
+    }
+    .nav h1 {
+        font-size: 12px;
+        margin-right: 6px;
+    }
+    .responsive {
+        width: 40px;
+        height: 20px;
+        margin-right: 20px;
+    }
+    .nav a {
+        display: block;
+        justify-content: start;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .showcase {
+        margin-top: 250px;
+        height: 350px;
+    }
+    .products {
+        margin-top: 10px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .normal-height {
+        height: 200px;
+    }
+    .bio {
+        font-size: 10px;
+        width: 70%;
+        margin-left: 0;
+    }
+}
